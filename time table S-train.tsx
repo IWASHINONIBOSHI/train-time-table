@@ -92,7 +92,8 @@ const formatWaitTime = (minutes: number): string => {
   return `${hours}時間${remainingMinutes}分後`;
 };
 
-// データ
+// 時刻表のデータ（著作権まわりが怖いので、一応偽物にしてあります。）
+//ここをSQLにしましょう！
 const sendaiRouteData: Route = {
   id: 'yakushido-sendai',
   from: '薬師堂',
