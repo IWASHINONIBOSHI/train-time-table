@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 基本的なリセットスタイル */
 * {
   box-sizing: border-box;
 }
@@ -17,7 +16,7 @@ body {
   background-color: #f3f4f6;
 }
 
-/* カスタムアニメーション定義 */
+/* カスタムアニメーションの部分！ */
 @keyframes pulse-fast {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.5; }
