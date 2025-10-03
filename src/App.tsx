@@ -30,7 +30,7 @@ function App() {
             <div className="text-sm text-gray-600 mt-1">仙台市地下鉄東西線</div>
           </div>
           
-          {/* 次の電車（ダミー） */}
+          {/* 次の電車（モック） */}
           <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-6 rounded-xl text-center shadow-lg animate-pulse">
             <div className="text-4xl font-bold font-mono mb-2">
               {String(now.getHours()).padStart(2, '0')}:{String(now.getMinutes() + 5).padStart(2, '0')}
@@ -38,15 +38,15 @@ function App() {
             <div className="text-xl opacity-90">5分後</div>
             <div className="mt-2 flex items-center justify-center gap-2">
               <Train className="w-4 h-4" />
-              <span className="text-sm">🚇 準備しましょう</span>
+              <span className="text-sm"> 準備しましょう</span>
             </div>
           </div>
           
           {/* 動作確認メッセージ */}
           <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
             <p className="text-green-800 text-center">
-              🎉 <strong>アプリが正常に動作しています！</strong><br/>
-              基本設定が完了しました
+              <strong>アプリが正常に動作しています。</strong><br/>
+              基本設定が完了しました。
             </p>
           </div>
           
